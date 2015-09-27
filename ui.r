@@ -5,7 +5,7 @@ shinyUI(
     sliderInput('LE','Enter the life expectancy in years', value = 70, min = 20, max = 100),
     sliderInput('MYS','Enter the mean years of schooling', value = 15, min = 5, max = 25),
     sliderInput('EYS','Enter the expected years of schooling', value = 18, min = 5, max = 30),
-    sliderInput('GNI','Enter the Gross national income in US $', value = 75000, min = 100, max = 200000)
+    sliderInput('GNI','Enter the per capita (PPP) Gross national income in US $', value = 75000, min = 100, max = 200000)
     ),
   mainPanel(
     h3(" The Human development index for the country you entered is:"),
